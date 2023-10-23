@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Sign Up Page</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-page_container">
+
+        <!-- Sign in Side -->
+
+        <div class="login-section page-side section-ope">
+            <div class="section-page_intro">
+                <img src="signin-icon-black.png" alt="signin-icon">
+                <p class="section-page-intro_title">Sign In</p>
+            </div>
+
+            <div class="login-form-area">
+                <p class="form-title">Sign In</p>
+                <div class="section-form">
+                    <form class="login-form">
+                        <label class="login-page_label">
+                            <input class="login-page_input" type="email" name="email" autocomplete="off">
+                            <span class="login-page_placeholder">Email</span>
+                        </label>
+                        <label class="login-page_label">
+                            <input class="login-page_input" type="password" name="password">
+                            <span class="login-page_placeholder">Password</span>
+                        </label>
+                     
+                        <div class="login-section_submit">
+                            <div class="login-page-submit-btn">
+                                <input type="submit" name="submit-login" value="Submit">
+                            </div>
+                        </div>
+                        
+                        <div class="login-page_forget">
+                            <a href="">Forgot Your Password ?</a>
+                        </div>
+                    </form>
+
+                    <form class="forget-form">
+                        <p class="forget-title">Forgot Your Password</p>
+                        <label class="login-page_label">
+                            <input class="login-page_input" type="email" name="email" autocomplete="off">
+                            <span class="login-page_placeholder">Email</span>
+                        </label>
+                        <div class="login-section_submit">
+                            <div class="login-page-submit-btn"><input type="submit" name="submit-login" value="Submit"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sign up Side -->
+
+        <div class="signup-section page-side section-clos">
+            <div class="section-page_intro">
+                <img src="signup-icon.png" alt="signup-icon">
+                <p class="section-page-intro_title">Sign Up</p>
+            </div>
+
+            <div class="signup-form-area">
+                <p class="form-title">Sign Up</p>
+                <div class="section-form">
+                    <form class="signup-form">
+                        <label class="login-page_label">
+                            <input class="login-page_input" type="text" name="username" autocomplete="off">
+                            <span class="login-page_placeholder">Username</span>
+                        </label>
+                        <label class="login-page_label">
+                            <input class="login-page_input" type="email" name="email" autocomplete="off">
+                            <span class="login-page_placeholder">Email</span>
+                        </label>
+                        <label class="login-page_label">
+                            <input class="login-page_input" type="password" name="password">
+                            <span class="login-page_placeholder">Password</span>
+                        </label>
+                        <label class="login-page_label">
+                            <input class="login-page_input" type="password" name="confirm password">
+                            <span class="login-page_placeholder">Confirm Password</span>
+                        </label>
+                        <label class="login-page_label">
+                            <input class="login-page_input" type="checkbox" name="terms-privacy" required>
+                            By creating an account, you agree to our <a style="color: #857e7e;" href="#">Terms</a> and <a style="color: #857e7e;" href="#">Privacy Policy</a>.
+                        </label>
+                        <div class="signup-section_submit">
+                          
+                            <div class="login-page-submit-btn">
+                                <input type="submit" name="submit-signup" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="animation.js"></script>
+    <script src="validation.js"></script>
+</body>
+</html>
